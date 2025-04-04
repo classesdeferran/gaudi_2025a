@@ -17,7 +17,7 @@ El modelo te debe servir como referencia. -->
 
   <body>
     <header class="fondo-color h">
-      <a href="#antonio-gaudi" id="skip-link"> saltar al contenido principal</a>
+      <a href="#antonio-gaudi" id="skip-link">Saltar al contenido principal</a>
 
       <div class="width-content">
         <h1 id="inicio" tabindex="0">Casa Batlló</h1>
@@ -55,12 +55,13 @@ El modelo te debe servir como referencia. -->
     </header>
 
     <main class="width-content">
-      <section id="antonio-gaudi">
-        <h2 tabindex="0">Antoni Gaudí</h2>
+      <section >
+        <h2 tabindex="0" id="antonio-gaudi">Antoni Gaudí</h2>
         <div>
           <img
             src="img/Antoni_Gaudi_1878.avif"
             alt="Fotografía de Antoni Gaudí de 1878"
+            aria-label="Fotografía de Antoni Gaudí de 1878"
             tabindex="0"
           />
           <div>
@@ -83,12 +84,15 @@ El modelo te debe servir como referencia. -->
               nuevas técnicas en el tratamiento de los materiales, como su
               famoso trencadís hecho con piezas de cerámica de desecho.
             </p>
+            <div class="volver-inicio">
+                <a href="#inicio">Volver al inicio &#8593;</a>
+              </div>
           </div>
         </div>
       </section>
 
-      <section id="el-edificio">
-        <h2 tabindex="0">El edificio</h2>
+      <section >
+        <h2 id="el-edificio" tabindex="0">El edificio</h2>
         <div>
           <div>
             <p tabindex="0">
@@ -119,6 +123,9 @@ El modelo te debe servir como referencia. -->
               movimiento dentro del edificio, a través de escaleras y un
               ascensor.
             </p>
+            <div class="volver-inicio">
+                <a href="#inicio">Volver al inicio &#8593;</a>
+              </div>
           </div>
           <img
             src="img/fachada-590x760.avif"
@@ -228,6 +235,9 @@ El modelo te debe servir como referencia. -->
               pintura entre otros, también se reintegró la escultura a la
               arquitectura como una de sus principales cualidades.
             </p>
+            <div class="volver-inicio">
+              <a href="#inicio">Volver al inicio &#8593;</a>
+            </div>
           </div>
         </div>
       </section>
@@ -243,7 +253,7 @@ El modelo te debe servir como referencia. -->
               <label for="nombre">Su nombre:* </label>
               <input type="text" required aria-required="true" id="nombre" />
               <p id="errorNombre"></p>
-              <label for="opinion">Su opinión:* </label
+              <label for="opinion">Su opinión (20 caracteres mínimo):* </label
               ><input type="text" required aria-required="true" id="opinion" />
               <p id="errorOpinion"></p>
               <div>
@@ -279,6 +289,9 @@ El modelo te debe servir como referencia. -->
             /></a>
           </div>
           <p tabindex="0">&#169;Antoni Gaudí</p>
+          <div class="volver-inicio">
+            <a href="#inicio">Volver al inicio &#8593;</a>
+          </div>
         </div>
       </div>
     </footer>
